@@ -1,0 +1,38 @@
+<div class="logo2">
+    <img src='assets/logo.jpg' alt="image not found" width="150px" height="30px">
+</div> 
+<div class="editpage">
+    <div class="li1">
+    <div class="col1"><label for="SAP" style="font-weight: bold;">SAP :</label><br>
+    <input type='text' class="SAP" [(ngModel)]="SAP"><br>
+    </div>
+    <div class="col2"><label for="Quantity" style="font-weight: bold;">Quantity :</label><br>
+    <input type='text' class="Quantity" [(ngModel)]="Quantity"><br>
+    </div>
+    <div class="col3"><label for="Price" style="font-weight: bold;">Price :</label><br>
+    <input type='text' class="Price" [(ngModel)]="Price"><br>
+    </div>
+    <div class="col4"><label for="Price" style="font-weight: bold;">Blocking Date :</label><br>
+    <input type='text' class=" Date" [(ngModel)]="Date"><br>
+    </div>
+    </div>
+    <div class="li2">
+    <div class="col1">
+    <label for="Emplacement" style="font-weight: bold;">Emplacement :</label><br>
+    <input type='text' class="Emplacement" [(ngModel)]="Emplacement"><br>
+    </div>
+    <div class="col2">
+    <label for="Designation" style="font-weight: bold;">Designation :</label><br>
+    <input type='text' class="Designation" [(ngModel)]="Designation"><br>
+    </div>
+    <div class="col3"><label for="supplier" style="font-weight: bold;">Supplier :</label><br>
+    <input type='text' class="Supplier" [(ngModel)]="Supplier"><br>
+    </div>
+    <div class="col4"><label for="Problem" style="font-weight: bold;">Problem Descriptipn :</label><br>
+    <input type='text' class=" Date" [(ngModel)]="Problem"><br>
+    </div>
+    </div>
+    <div class="add">
+    <button  (click)="addProduct()"  routerLink='/screen3'  >Add</button>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+.logo2{
+    
+    height: 50px;
+    width: 100%;
+    background-color: #0990a6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+img {
+margin-right: 5px;
+margin-left: 1100px;
+}
+.editpage{
+    margin-left: 180px;
+    margin-right:30px;
+    margin-top: 170px;
+}
+.li1{
+    display: flex;
+    padding-bottom: 50px;   
+}
+
+.li2{
+    display: flex;
+    padding-bottom: 50px;    
+}
+.col1{
+    padding-right: 80px;
+}
+.col2{
+    padding-right: 80px;
+}
+.col3{
+    padding-right: 80px;
+}
+.add{
+   padding-left: 10px;
+   padding-top: 10px;
+}
+label{
+   padding-inline: 5px;
+   
+}
+input{
+    padding-block: 6px;
+}
+button{
+    padding-block: 3px;
+    padding-inline: 17px;
+
+}
